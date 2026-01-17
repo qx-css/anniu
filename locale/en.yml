@@ -1,0 +1,5 @@
+anniu:
+  admin:
+    settings:
+      enabled_label: "Enable the Anniu Button"
+      enabled_help: "When enabled, a blue 'Hello!' button will be fixed at the bottom-right of the forum."

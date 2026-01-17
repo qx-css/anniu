@@ -1,0 +1,40 @@
+{
+    "name": "qx-css/anniu",
+    "description": "A simple Flarum extension that adds a toggleable button.",
+    "type": "flarum-extension",
+    "keywords": ["demo", "button", "toggle"],
+    "license": "MIT",
+    "authors": [{
+        "name": "qx-css",
+        "email": "admin@frii.site",
+        "role": "Developer"
+    }],
+    "support": {
+        "email": "admin@frii.site",
+        "source": "https://github.com/qx-css/anniu",
+        "issues": "https://github.com/qx-css/anniu/issues"
+    },
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "QxCss\\Anniu\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Anniu Switch",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-toggle-on",
+                "backgroundColor": "#3d7ea6",
+                "color": "#fff"
+            }
+        },
+        "flagrow": {
+            "discuss": ""
+        }
+    },
+    "minimum-stability": "beta"
+}
